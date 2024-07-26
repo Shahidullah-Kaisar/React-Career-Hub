@@ -1,0 +1,195 @@
+[
+    {
+      "id": "1",
+      "logo": "https://i.ibb.co/s2sG990/google.png",
+      "job_title": "Software Engineer",
+      "company_name": "Tech Solutions Inc.",
+      "remote_or_onsite": "Remote",
+      "location": "San Francisco, CA",
+      "job_type": "Full-time",
+      "salary": "$120,000 - $140,000",
+      "job_description": "We are looking for a skilled Software Engineer to join our team. You will be responsible for developing and maintaining web applications and ensuring their scalability and efficiency.",
+      "job_responsibility": [
+        "Develop and maintain web applications",
+        "Collaborate with cross-functional teams",
+        "Ensure the scalability and efficiency of software solutions",
+        "Write clean, maintainable, and efficient code",
+        "Participate in code reviews and provide constructive feedback"
+      ],
+      "contact_information": {
+        "phone": "123-456-7890",
+        "email": "hr@techsolutions.com",
+        "address": "123 Market St, San Francisco, CA 94103"
+      },
+      "experiences": [
+        "3+ years of experience in software development",
+        "Proficiency in JavaScript, React, and Node.js",
+        "Experience with cloud services (AWS, Azure)"
+      ],
+      "educational_requirements": [
+        "Bachelor's degree in Computer Science or related field",
+        "Master's degree preferred"
+      ]
+    },
+    {
+      "id": "2",
+      "logo": "https://i.ibb.co/s2sG990/google.png",
+      "job_title": "Marketing Manager",
+      "company_name": "Creative Agency Co.",
+      "remote_or_onsite": "Onsite",
+      "location": "New York, NY",
+      "job_type": "Part-time",
+      "salary": "$60,000 - $80,000",
+      "job_description": "We are seeking a Marketing Manager to lead our marketing efforts. The ideal candidate will have a strong background in digital marketing and a passion for creative campaigns.",
+      "job_responsibility": [
+        "Lead marketing campaigns",
+        "Manage social media channels",
+        "Analyze market trends to increase brand awareness",
+        "Develop and execute marketing strategies",
+        "Coordinate with other departments to ensure brand consistency"
+      ],
+      "contact_information": {
+        "phone": "987-654-3210",
+        "email": "careers@creativeagency.com",
+        "address": "456 Madison Ave, New York, NY 10022"
+      },
+      "experiences": [
+        "5+ years of experience in marketing",
+        "Strong understanding of digital marketing strategies",
+        "Experience with SEO and content creation"
+      ],
+      "educational_requirements": [
+        "Bachelor's degree in Marketing, Business, or related field",
+        "Certification in Digital Marketing is a plus"
+      ]
+    },
+    {
+      "id": "3",
+      "logo": "https://i.ibb.co/s2sG990/google.png",
+      "job_title": "Data Analyst",
+      "company_name": "Data Insights Corp.",
+      "remote_or_onsite": "Remote",
+      "location": "Austin, TX",
+      "job_type": "Contract",
+      "salary": "$90,000 - $110,000",
+      "job_description": "Seeking a Data Analyst to interpret complex data sets and provide actionable insights to support business decisions.",
+      "job_responsibility": [
+        "Analyze large datasets to identify trends and patterns",
+        "Prepare reports and presentations for stakeholders",
+        "Collaborate with the IT team to improve data systems",
+        "Ensure data accuracy and integrity",
+        "Develop and maintain data collection systems"
+      ],
+      "contact_information": {
+        "phone": "555-123-4567",
+        "email": "jobs@datainsights.com",
+        "address": "789 Congress Ave, Austin, TX 78701"
+      },
+      "experiences": [
+        "2+ years of experience in data analysis",
+        "Proficiency in SQL, Python, and data visualization tools",
+        "Experience with statistical analysis"
+      ],
+      "educational_requirements": [
+        "Bachelor's degree in Data Science, Statistics, or related field",
+        "Master's degree preferred"
+      ]
+    },
+    {
+      "id": "4",
+      "logo": "https://i.ibb.co/s2sG990/google.png",
+      "job_title": "Product Manager",
+      "company_name": "Innovatech",
+      "remote_or_onsite": "Onsite",
+      "location": "Seattle, WA",
+      "job_type": "Full-time",
+      "salary": "$130,000 - $150,000",
+      "job_description": "Innovatech is looking for a Product Manager to oversee product development and ensure the successful launch of new products.",
+      "job_responsibility": [
+        "Define product vision and strategy",
+        "Collaborate with engineering and design teams",
+        "Conduct market research and competitor analysis",
+        "Prioritize product features and requirements",
+        "Monitor product performance and user feedback"
+      ],
+      "contact_information": {
+        "phone": "555-987-6543",
+        "email": "careers@innovatech.com",
+        "address": "321 5th Ave, Seattle, WA 98104"
+      },
+      "experiences": [
+        "4+ years of experience in product management",
+        "Strong understanding of product lifecycle",
+        "Experience with agile methodologies"
+      ],
+      "educational_requirements": [
+        "Bachelor's degree in Business, Engineering, or related field",
+        "MBA is a plus"
+      ]
+    },
+    {
+      "id": "5",
+      "logo": "https://i.ibb.co/s2sG990/google.png",
+      "job_title": "Graphic Designer",
+      "company_name": "Design Hub",
+      "remote_or_onsite": "Remote",
+      "location": "Los Angeles, CA",
+      "job_type": "Freelance",
+      "salary": "$50,000 - $70,000",
+      "job_description": "We are looking for a creative Graphic Designer to create engaging and on-brand graphics for a variety of media.",
+      "job_responsibility": [
+        "Create visual content for social media and marketing campaigns",
+        "Design logos, brochures, and promotional materials",
+        "Collaborate with the marketing team to ensure brand consistency",
+        "Prepare rough drafts and present ideas",
+        "Stay up-to-date with industry trends and tools"
+      ],
+      "contact_information": {
+        "phone": "555-654-7890",
+        "email": "design@designhub.com",
+        "address": "654 Sunset Blvd, Los Angeles, CA 90028"
+      },
+      "experiences": [
+        "3+ years of experience in graphic design",
+        "Proficiency in Adobe Creative Suite",
+        "Strong portfolio showcasing design skills"
+      ],
+      "educational_requirements": [
+        "Bachelor's degree in Graphic Design or related field",
+        "Certification in graphic design is a plus"
+      ]
+    },
+    {
+      "id": "6",
+      "logo": "https://i.ibb.co/s2sG990/google.png",
+      "job_title": "HR Manager",
+      "company_name": "Business Corp",
+      "remote_or_onsite": "Onsite",
+      "location": "Chicago, IL",
+      "job_type": "Full-time",
+      "salary": "$80,000 - $100,000",
+      "job_description": "We are looking for an experienced HR Manager to oversee all aspects of human resources practices and processes.",
+      "job_responsibility": [
+        "Develop and implement HR strategies and initiatives",
+        "Bridge management and employee relations",
+        "Manage the recruitment and selection process",
+        "Support current and future business needs through development and engagement",
+        "Nurture a positive working environment"
+      ],
+      "contact_information": {
+        "phone": "555-321-9876",
+        "email": "hr@businesscorp.com",
+        "address": "987 Wacker Dr, Chicago, IL 60601"
+      },
+      "experiences": [
+        "5+ years of experience in HR management",
+        "Knowledge of HR systems and databases",
+        "Experience with organizational development"
+      ],
+      "educational_requirements": [
+        "Bachelor's degree in Human Resources or related field",
+        "Master's degree or HR certification is a plus"
+      ]
+    }
+  ]
+  
