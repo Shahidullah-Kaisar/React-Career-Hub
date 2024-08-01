@@ -4,12 +4,13 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
 
     const links = <>
-        <div className="md:flex gap-8 text-2xl md:m-6">
+        <div className="md:flex gap-7 text-2xl md:m-6">
         
             <li className="mb-2"><NavLink to='/'>Home</NavLink></li>
             <li className="mb-2"><NavLink to='/jobs'>Jobs</NavLink></li>
             <li className="mb-2"><NavLink to='/applied'>Applied Job</NavLink></li>
-            <li className="mb-2"><NavLink to='/blogs'>Blogs</NavLink></li>
+            {/* <li className="mb-2"><NavLink to='/blogs'>Blogs</NavLink></li> */}
+            {/* <li className="mb-2"><NavLink to='/addJob'>Add Job</NavLink></li> */}
 
         </div>
         
@@ -17,7 +18,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-gray-200">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

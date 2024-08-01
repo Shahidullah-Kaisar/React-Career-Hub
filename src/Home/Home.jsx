@@ -2,41 +2,40 @@ import React, { useEffect, useState } from "react";
 import CategorList from "../CategoryList/CategorList";
 import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 import Banner from "../Banner/Banner";
+import { useLoaderData } from "react-router-dom";
 
 
 const Home = () => {
 
-    const [jobs, setJobs] = useState([])
+    const loadData = useLoaderData()
+    
+    const [jobs, setJobs] = useState(loadData)
 
-    useEffect(() => {
-        fetch('jobs.json')
-        .then(res => res.json())
-        .then(data => setJobs(data))
-    },[])
+    // useEffect(() => {
+    //     fetch('http://localhost:5000/addJob')
+    //     .then(res => res.json())
+    //     .then(data => setJobs(data))
+    // },[])
 
   return (
     <>
         <Banner></Banner>
-        <CategorList></CategorList>
-        <FeaturedJobs jobs={jobs}></FeaturedJobs>
-
-      {/* <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <img
-            src="https://i.ibb.co/2yNCq1R/men2.jpg"
-            className="max-w-sm rounded-lg shadow-2xl"
-          />
-          <div>
-            <h1 className="text-5xl font-bold">Box Office News!</h1>
-            <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+        <div>
+          <div className="text-center">
+            <h1 className="text-5xl mb-3 mt-8 text-green-500">Job Category List</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odio.
             </p>
-            <button className="btn btn-primary">Get Started</button>
           </div>
+          <div className="md:grid grid-cols-3 gap-4 mt-8 mb-20">
+            {
+              jobs.slice(0,6).map(loop => <CategorList job={loop}></CategorList>)
+            }
+          </div>
+          
         </div>
-      </div> */}
+        
+        <FeaturedJobs jobs={jobs}></FeaturedJobs>
     </>
   );
 };
